@@ -1,0 +1,11 @@
+Feature: Google Maps Geocoding API
+  If user provides an address to API, it should convert it into geographical coordinates and vice-versa.
+
+  Scenario Outline: Get geocode for address as <address>
+    When User requests geocode for address <address>
+    Then User should get response code as 200
+    And User should get longitude as <longitude> and latitude as <latitude>
+
+    Examples:
+    |address|longitude|latitude|
+    |NewDelhi|77.20902|28.61393|

@@ -1,0 +1,4 @@
+2018-03-14 14:59:36 INFO  LogMe:11 - This is an info message
+2018-03-14 14:59:36 WARN  LogMe:12 - This is a warn message
+2018-03-14 14:59:36 ERROR LogMe:13 - This is an error message
+2018-03-14 14:59:36 FATAL LogMe:14 - This is a fatal message
